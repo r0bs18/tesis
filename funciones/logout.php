@@ -1,12 +1,9 @@
 <?php 
-session_start();
-if (isset($_SESSION["usuario"]))
-	{
-	session_destroy();
-	header('Location: http://localhost/TESIS');	
-	}
-else
-	{
-	echo "OPERACION INCORRECTA";
+	session_start();
+	if (isset($_SESSION["usuario"])) {
+		session_destroy();
+		header('Location: ../index.php');	
+	} else {
+		echo "OPERACION INCORRECTA";
 	}
 ?>

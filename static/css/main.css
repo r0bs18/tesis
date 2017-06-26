@@ -1,0 +1,72 @@
+
+html,body{width: 100%;height: 100%;}
+body {background: url(../img/background/back_veterinarios.jpg) no-repeat;background-size: cover;background-position: center;padding-top: 50px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    height: 100%;
+    width: 100%;}
+
+
+/* Contenedor */
+.navbar {
+    border:0;
+    background: #FFF;
+}
+/* Contenedor */
+.flex_dashboard {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    height: 100%;
+    width: 100%;
+}
+.flex_dashboard .flex_dashboard_item{
+    order: 0;
+    flex: 1 1 auto;
+    align-self: flex-start;
+    height: 100%;
+}
+
+
+/* Menu lateral  1f295e*/
+.menu_lateral {
+    max-width: 300px;
+    background: #051839;
+}
+.menu_lateral .list-group{
+    border: 0;
+    border-radius: 0;
+}
+.menu_lateral .list-group-item{
+    border:0;
+    border-radius: 0;
+    color: #FFF;
+    padding: 15px;
+    background: transparent;
+}
+
+/* Pagina de Login */
+.login_section{width: 100%;height: 100%;}
+.login_section form{max-width:350px;padding:15px;background:#FFF;}
+.login_section h3{margin-top: 0;text-align:center}
+.flex_center {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh
+}
+.flex_center .flex_center_item{
+    order: 0;
+    flex: 0 1 auto;
+    align-self: center;
+}
