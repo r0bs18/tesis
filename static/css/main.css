@@ -1,15 +1,43 @@
+@font-face {
+  font-family: 'OpenSansLight';
+  src: url('../fonts/OpenSans-Light.eot?#iefix') format('embedded-opentype'),  url('../fonts/OpenSans-Light.woff') format('woff'), url('../fonts/OpenSans-Light.ttf')  format('truetype'), url('../fonts/OpenSans-Light.svg#OpenSans-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'OpenSansSemibold';
+  src: url('../fonts/OpenSans-Semibold.eot?#iefix') format('embedded-opentype'),  url('../fonts/OpenSans-Semibold.woff') format('woff'), url('../fonts/OpenSans-Semibold.ttf')  format('truetype'), url('../fonts/OpenSans-Semibold.svg#OpenSans-Semibold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'OpenSansBold';
+  src: url('../fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),  url('../fonts/OpenSans-Bold.woff') format('woff'), url('../fonts/OpenSans-Bold.ttf')  format('truetype'), url('../fonts/OpenSans-Bold.svg#OpenSans-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{font-family: 'OpenSansLight', sans-serif;font-size: 14px;}
+*:focus {outline: 0!important;}
+b,span,strong{font-size:inherit;}
+b,strong{font-family: 'OpenSansBold';}
+a,a:hover,a:focus,a:active{text-decoration: none;color: inherit;}
+h1,h2,h3,h4,h5,h6{margin-top: 0;font-family: 'OpenSansSemibold';margin-bottom:20px;}
 
 html,body{width: 100%;height: 100%;}
-body {background: url(../img/background/back_veterinarios.jpg) no-repeat;background-size: cover;background-position: center;padding-top: 50px;
-
+body {
+    background: url(../img/background/back_veterinarios.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-content: stretch;
     height: 100%;
-    width: 100%;}
-
+    width: 100%;
+}
 
 /* Contenedor */
 .navbar {
@@ -34,7 +62,7 @@ body {background: url(../img/background/back_veterinarios.jpg) no-repeat;backgro
 }
 
 
-/* Menu lateral  1f295e*/
+/* Menu lateral  */
 .menu_lateral {
     max-width: 300px;
     background: #051839;
@@ -49,6 +77,11 @@ body {background: url(../img/background/back_veterinarios.jpg) no-repeat;backgro
     color: #FFF;
     padding: 15px;
     background: transparent;
+    border-bottom: solid 1px #343a58;
+}
+.menu_lateral .list-group-item:hover{
+    background: #1f295e;
+    color: #FFF;
 }
 
 /* Pagina de Login */
