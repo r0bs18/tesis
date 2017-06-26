@@ -61,6 +61,8 @@ body {
     height: 100%;
 }
 
+/* Contenedor de dashboard */
+.dashboard_container {padding:30px;}
 
 /* Menu lateral  */
 .menu_lateral {
